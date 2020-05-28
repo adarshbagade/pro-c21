@@ -24,11 +24,11 @@ if (wall.x-bullet.x<=wall.width/2+bullet.width/2){
 damage=(0.5*weight*speed*speed)/(thickness*thickness*thickness);
 
 
-if (thickness>=70){
+if (damage>=10){
   wall.shapeColor="green";
 
 }
-if (thickness<=70){
+if (damage<=10){
   wall.shapeColor="red";
 
 }
